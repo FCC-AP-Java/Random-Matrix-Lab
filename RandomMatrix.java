@@ -23,8 +23,9 @@ public class RandomMatrix
   {
     for (int[] row : matrix)
     {
-      System.out.println(Arrays.toString(row) + "\n");
+      System.out.println(Arrays.toString(row));
     }
+    System.out.println("");
   }
 
   public int getAmount(int given)
